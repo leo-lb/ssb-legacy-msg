@@ -6,8 +6,8 @@ edition = "2018"
 license = "AGPL-3.0"
 
 [dependencies]
-ssb-legacy-msg-data = { git="https://github.com/sunrise-choir/legacy-msg-data" }
-ssb-multiformats = {git="https://github.com/sunrise-choir/ssb-multiformats"}
+ssb-legacy-msg-data = { git="https://github.com/leo-lb/legacy-msg-data" }
+ssb-multiformats = {git="https://github.com/leo-lb/ssb-multiformats"}
 serde = {version = "1.0.92", features = ["derive"] }
-strtod = { git = "https://github.com/ssbrs/strtod" }
+strtod = { git = "https://github.com/leo-lb/strtod" }
 crypto-hash = "0.3.3"
